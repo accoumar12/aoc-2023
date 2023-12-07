@@ -1,3 +1,5 @@
+# The results of both questions were found with this code... the second one was found thanks to binary search
+
 with open("data/puzzle5.csv") as file:
     line = file.readline()
     seeds = [int(x) for x in line.split(":")[1].split()]
